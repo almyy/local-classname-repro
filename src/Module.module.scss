@@ -1,0 +1,9 @@
+// Works fine
+.moduleStyle {
+  background-color: blue;
+}
+
+// Works fine
+:global(.global-from-module) {
+  background-color: chartreuse;
+}

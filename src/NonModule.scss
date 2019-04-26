@@ -1,0 +1,9 @@
+// Works fine
+.global-style {
+  background-color: red;
+}
+
+// No longer works
+:local(.localizedStyle) {
+  background-color: hotpink;
+}
